@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "keyboard_settings", menuName = "Settings/Keyboard Settings")]
 public class KeyboardView : MonoBehaviour, IKeyboardView
 {
     public KeyCode attackButton { get; private set; }
